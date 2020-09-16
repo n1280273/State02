@@ -1,0 +1,4 @@
+abstract class DogState{
+    public abstract void tukareta(Dog yovbidashimoto);
+    public abstract void tabeta(Dog yobidashimoto);
+}

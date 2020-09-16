@@ -1,0 +1,23 @@
+class Dog{
+    private DogState myState;
+
+    public Dog(){
+        myState = TanosiiState.getInstance();
+
+    }
+    public voud roudou(){
+        myState.tukareta(this);
+    }
+    public void shokuji()
+{
+    myState.tabeta(this);
+}
+    public changeState(DogState d){
+        myState = d;
+    }
+    public void print(){
+        System.out.print("現在、私は「")
+        System.out.print(myState.toString());
+        System.out.print("」です。")
+    }
+}
